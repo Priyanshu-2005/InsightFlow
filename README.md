@@ -6,7 +6,7 @@ InsightFlow is a web-based application designed to help users efficiently extrac
 
 - **PDF Text Extraction** - Extract text from entire PDFs or specific pages.
 - **AI-Powered Summarization** - Get concise summaries of extracted text.
-- **Note-Taking** - Take and save notes alongside extracted content.
+- **Note-Taking** - Take and save notes alongside extracted content..
 <!-- - **Visibility Control** - Manage document visibility and access. -->
 
 ## Tech Stack

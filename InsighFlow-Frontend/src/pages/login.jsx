@@ -432,12 +432,12 @@ function LoginPage() {
           >
             Don’t have an account? Sign Up
           </p>
-          <p
+          {/* <p
             className="cursor-pointer text-indigo-600 hover:underline"
             onClick={() => navigate("/user/resetPassEnterEmail")}
           >
             Forgot Password?
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

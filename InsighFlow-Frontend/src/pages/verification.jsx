@@ -136,12 +136,12 @@ function AccountVerification() {
 
         <div className="flex gap-x-1 text-sm">
           <div>Need help?</div>
-          <div
+          {/* <div
             className="cursor-pointer text-indigo-800 underline"
             onClick={() => console.log("Contact Us")}
           >
             Contact Us
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

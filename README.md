@@ -61,29 +61,26 @@ npm run dev
 - Multi-language OCR support
 - Dashboard for document insights
 
-<!-- ## Contributing
+## ScreenShots
+`/app`
+![image](https://github.com/user-attachments/assets/c38a0208-81fb-46ad-9400-6d8f4173c5d1)
 
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+`Summarize page button to summarize the page currently open.`
+![image](https://github.com/user-attachments/assets/b79c12f6-d06f-4963-a71f-aae797bf9f1b)
 
-```bash
-# Create a new branch
-git checkout -b feature-name
+`Enable user to take down notes alongside`
+![image](https://github.com/user-attachments/assets/b4b50187-7689-47b7-87be-291be6e52d75)
 
-# Make your changes and commit
-git commit -m "Added new feature"
+`Save notes in database`
+![image](https://github.com/user-attachments/assets/54189e08-87a0-49f5-a0e8-5c8c8d6a4bf0)
 
-# Push to the branch
-git push origin feature-name -->
-<!-- ```
-<!--
-## License
+`View Previous notes`
+![image](https://github.com/user-attachments/assets/8695205b-d57b-408c-818c-320325524f0d)
 
-This project is licensed under the MIT License. -->
-<!--
-## Contact
+`Open and edit previous notes`
+![image](https://github.com/user-attachments/assets/dce83a0c-5bef-452f-840e-3e7c24c0659d)
 
-For any questions, feel free to reach out!
 
-- 📧 Email: your-email@example.com
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile) --> -->
+
+
+

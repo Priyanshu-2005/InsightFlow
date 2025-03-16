@@ -34,7 +34,7 @@ function App() {
             errorElement: <ErrorPage />,
           },
           {
-            path: "/login",
+            path: "/",
             element: <LoginPage />,
             errorElement: <ErrorPage />,
           },

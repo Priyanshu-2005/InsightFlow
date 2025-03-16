@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Priyanshu-2005.github.io/insightflow",
   "name": "insighflow-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -16,6 +19,7 @@
     "@supabase/supabase-js": "^2.49.1",
     "@tailwindcss/vite": "^4.0.14",
     "axios": "^1.8.3",
+    "gh-pages": "^6.3.0",
     "install": "^0.13.0",
     "npm": "^11.2.0",
     "pdfjs-dist": "^4.10.38",

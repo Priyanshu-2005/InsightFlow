@@ -197,5 +197,8 @@ app.delete("/deleteNote/:noteId", async (req, res) => {
     res.status(200).json(data);
   }
 });
+app.get("/keepalive", (req, res) => {
+  res.status(200).json({ message: "Server is running" });
+});
 
 app.listen(port, () => console.log(`Server running on port ${port}`));

@@ -2,6 +2,10 @@
 
 InsightFlow is a web-based application designed to help users efficiently extract and summarize text from PDFs. It enables users to upload PDFs, generate full-document or page-wise summaries, and take notes for easy reference. With secure authentication and a verification page, InsightFlow ensures a seamless and organized document management experience.
 
+## Deployed URL
+
+[InsightFlow](https://priyanshu-2005.github.io/InsightFlow/)
+
 ## Features
 
 - **PDF Text Extraction** - Extract text from entire PDFs or specific pages.
@@ -15,7 +19,7 @@ InsightFlow is a web-based application designed to help users efficiently extrac
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL / Supabase
 - **Authentication:** Supabase Auth
-<!-- - **Deployment:** Vercel, or AWS -->
+- **Deployment:** Render(backend), Github Pages(Frontend)
 
 ## Installation
 

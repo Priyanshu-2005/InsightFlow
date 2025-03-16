@@ -1,10 +1,9 @@
-// export default PdfUpload;
 import { Button } from "@radix-ui/themes";
 import React, { useState } from "react";
 import axios from "axios";
 import { FaUpload, FaFileAlt } from "react-icons/fa";
 import PdfPageViewer from "./PdfPageViewer";
-import NotesEditor from "./NotesEditor"; // Import the separate NotesEditor component
+import NotesEditor from "./NotesEditor"; 
 
 const PdfUpload = () => {
   const [file, setFile] = useState(null);
@@ -101,7 +100,6 @@ const PdfUpload = () => {
         )}
       </div>
 
-      {/* Notes Section - Now using the separate component */}
       <div className="w-full lg:w-2/5 bg-gray-900 rounded-xl shadow-md overflow-hidden flex flex-col ">
         {file ? (
           <NotesEditor />

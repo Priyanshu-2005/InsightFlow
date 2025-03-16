@@ -119,8 +119,8 @@ function SignUpPage() {
 
   const [validation, setValidation] = useState({
     email: null,
-    aadhaarNumber: null,
-    phoneNumber: null,
+    aadhaarNumber: true,
+    phoneNumber: true,
     password: null,
   });
 
@@ -180,8 +180,8 @@ function SignUpPage() {
   //relative my-6 flex w-full flex-col gap-y-4 rounded-md border-2 bg-[#242424] p-8 font-inter text-sm font-medium text-[#fffff] shadow-2xl shadow-indigo-300 sm:w-8/12 md:w-6/12 lg:w-4/12
   //relative my-6 flex w-full flex-col gap-y-4 rounded-md border-2 bg-[#242424] p-8 font-inter text-sm font-medium text-[#fffff] shadow-2xl shadow-indigo-300 sm:w-8/12 md:w-6/12 lg:w-4/12
   return (
-    <div className="dotted flex min-h-screen items-center justify-center bg-[#242424]  ">
-      <div className="relative my-6 flex w-full flex-col gap-y-4 rounded-md border-2 bg-[#242424] p-8 font-inter text-sm font-medium text-[#fffff] shadow-2xl shadow-indigo-300 sm:w-8/12 md:w-6/12 lg:w-4/12">
+    <div className="dotted flex  -mt-20 min-h-screen items-center justify-center bg-[#121212]   ">
+      <div className="relative my-6 -mt-44 flex w-full flex-col gap-y-4 rounded-md border-2 bg-[#121212]  p-8 font-inter text-sm font-medium text-[#fffff] shadow-2xl  sm:w-8/12 md:w-6/12 lg:w-4/12">
         {/* <div className="absolute inset-0 -z-10 rounded-md bg-gradient-to-r from-violet-300 to-indigo-400"></div> */}
         <div className="mb-2 flex select-none text-center font-noto text-base font-semibold md:text-lg"></div>
         <div className="flex flex-col gap-y-1 ">
@@ -193,7 +193,6 @@ function SignUpPage() {
             value={signupData.name}
           ></TextField.Root>
         </div>
-
         <div className="flex flex-col gap-y-1">
           <span className="">Email</span>
           <TextField.Root
@@ -209,11 +208,12 @@ function SignUpPage() {
           <p className="mt-2 text-red-500">Invalid email format</p>
         )}
         {/* {validation.email === true && (
-            <p className="mt-2 text-green-500">Valid email format</p>
-          )} */}
+          <p className="mt-2 text-green-500">Valid email format</p>
+        )}{" "}
+        */}
         {/* </div> */}
 
-        <div className="flex flex-col gap-y-1">
+        {/* <div className="flex flex-col gap-y-1">
           <span className="">Aadhaar No.</span>
           <TextField.Root
             placeholder="Aadhaar Number"
@@ -222,17 +222,16 @@ function SignUpPage() {
             value={signupData.aadhaarNumber}
             onBlur={handleBlur}
           ></TextField.Root>
-        </div>
+        </div> */}
         {/* <div> */}
-        {validation.aadhaarNumber === false && (
+        {/* {validation.aadhaarNumber === false && (
           <p className="mt-2 text-red-500">Invalid aadhaar format</p>
-        )}
+        )} */}
         {/* {validation.aadhaar === true && (
             <p className="mt-2 text-green-500">Valid aadhaar format</p>
           )} */}
         {/* </div> */}
-
-        <div className="flex flex-col gap-y-1">
+        {/* <div className="flex flex-col gap-y-1">
           <span className="">Phone No.</span>
           <TextField.Root
             placeholder="Phone Number"
@@ -241,16 +240,15 @@ function SignUpPage() {
             name="phoneNumber"
             value={signupData.phoneNumber}
           ></TextField.Root>
-        </div>
+        </div> */}
         {/* <div> */}
-        {validation.phoneNumber === false && (
+        {/* {validation.phoneNumber === false && (
           <p className="mt-2 text-red-500">Invalid Phone Number Format</p>
-        )}
+        )} */}
         {/* {validation.phone === true && (
             <p className="mt-2 text-green-500">Valid Phone Number Format</p>
           )} */}
         {/* </div> */}
-
         <div className="flex flex-col gap-y-1">
           <span className="">Password</span>
           <TextField.Root
@@ -259,6 +257,7 @@ function SignUpPage() {
             onChange={handleChange}
             value={signupData.password}
             name="password"
+            className="flex flex-row align-center justify-center"
           >
             <TextField.Slot className="relative">
               <Button
@@ -289,6 +288,7 @@ function SignUpPage() {
           color="iris"
           size="3"
           name="button"
+          className="bg-indigo-500"
           onClick={handleSignUp}
           disabled={!isFormValid}
         >
@@ -298,7 +298,7 @@ function SignUpPage() {
         <div>{successMessage}</div>
         <p
           className="w-fit cursor-pointer select-none border-b border-white text-indigo-700 transition-all duration-200 hover:border-b hover:border-indigo-700"
-          onClick={() => navigate("/login")}
+          onClick={() => navigate("/")}
         >
           Already have an account? Log In
         </p>

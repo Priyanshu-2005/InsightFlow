@@ -108,8 +108,8 @@ function AccountVerification() {
   }, [dataUser, token, email, navigate]);
 
   return (
-    <div className="flex h-[100svh] w-full items-center justify-center bg-[#242424] font-noto font-medium">
-      <div className="m-4 flex flex-col items-center justify-center gap-y-4 rounded-lg bg-[#242424] p-8 drop-shadow-lg">
+    <div className="flex -mt-12 h-[100svh] w-full items-center justify-center bg-[#121212]  font-noto font-medium">
+      <div className="m-4 flex -mt-40 flex-col items-center justify-center gap-y-4 rounded-lg bg-[#121212]  p-8 drop-shadow-lg">
         <div className="mb-4 rounded-sm border border-green-400 bg-green-200 px-3 py-1 text-center text-lg font-semibold text-green-900">
           Please verify your email
         </div>

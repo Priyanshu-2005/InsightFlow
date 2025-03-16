@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function AccountVerified() {
   const navigate = useNavigate();
   return (
-    <div className="flex h-[100svh] w-full items-center justify-center bg-[#121212] font-noto font-medium">
+    <div className="flex h-[100svh]  -mt-20 w-full items-center justify-center bg-[#121212] font-noto font-medium">
       <div className="m-4 flex flex-col -mt-32 items-center justify-center gap-y-4 rounded-lg bg-[#121212] p-8 drop-shadow-lg">
         <div className="mb-4 flex items-center gap-x-2 rounded-sm border border-green-400 bg-green-200 px-3 py-1 text-center text-lg font-semibold text-green-900">
           <div>
@@ -18,10 +18,7 @@ function AccountVerified() {
         <div className="flex flex-col items-center text-sm">
           <div>Please proceed to login</div>
           <div className="my-1">
-            <Button
-              className="bg-indigo-500"
-              onClick={() => navigate("/login")}
-            >
+            <Button className="bg-indigo-500" onClick={() => navigate("/")}>
               Login
             </Button>
           </div>

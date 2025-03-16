@@ -26,7 +26,6 @@ jobs:
         run: npm install
       - name: Create .env file
         run: |
-          cd InsighFlow-Frontend
           echo "" > .env
            echo "VITE_SUPABASE_KEY=${{ secrets.VITE_SUPABASE_KEY }}" > .env
            echo "VITE_API_BASE_URL=${{ secrets.VITE_API_BASE_URL }}" >> .env

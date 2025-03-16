@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Insighflow-Frontend
+        working-directory: InsighFlow-Frontend
     steps:
       - name: Checkout code
         uses: actions/checkout@v2

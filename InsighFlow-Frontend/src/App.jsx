@@ -47,7 +47,7 @@ function App() {
       },
     ],
     {
-      basename: "/insightflow",
+      basename: "/InsightFlow",
     }
   );
 
